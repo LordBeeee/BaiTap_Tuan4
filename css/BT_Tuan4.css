@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 1600px;
+    height: 920px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#logo {
+    display: flex;
+    width: 150px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#logo_top {
+    width: 80px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#center {
+    display: flex;
+}
+
+#right {
+    display: flex;
+}
