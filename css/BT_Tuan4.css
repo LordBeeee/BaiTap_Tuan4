@@ -28,6 +28,7 @@
 }
 #logo_bot{
     width: 80px;
+    height: 475px;
     margin-left: 70px;
     display: flex;
     align-items: center;
@@ -114,6 +115,7 @@
 #center #img_center #img_big img{
     width: 830px;
     height: 450px;
+    border-radius: 0px 0px 7px 7px;
 }
 #center #img_center #ten{
     position: absolute;
@@ -135,6 +137,138 @@
     position: absolute;
     margin-top: 20px;
     margin-left: 580px;
+}
+#center #img_small #img_small_left{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#center #img_small #img_small_left .img_2 img{
+    display: flex;
+    width: 260px;
+    height: 160px;
+    position: relative;
+    border-radius: 10px;
+}
+#center #img_small #img_small_left .ten_2{
+    position: absolute;
+    justify-content: center;
+}
+#center #img_small #img_small_left .ten_2 button{
+    width:110px ;
+    height: 25px;
+    background-color: #757678;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#center #img_small #img_small_left .ten_2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+#center #img_small #img_small_centter{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#center #img_small #img_small_centter .img_3 img{
+    display: flex;
+    width: 260px;
+    height: 160px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+#center #img_small #img_small_centter .ten_3{
+    position: absolute;
+    justify-content: center;
+}
+
+#center #img_small #img_small_centter .ten_3 button{
+    width:100px ;
+    height: 25px;
+    background-color: #757678;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#center #img_small #img_small_centter .ten_3 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+
+#center #img_small #img_small_right{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#center #img_small #img_small_right .img_4 img{
+    display: flex;
+    width: 260px;
+    height: 160px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+#center #img_small #img_small_right .ten_4{
+    position: absolute;
+    justify-content: center;
+}
+
+#center #img_small #img_small_right .ten_4 button{
+    width:100px ;
+    height: 25px;
+    background-color: #757678;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#center #img_small #img_small_right .ten_4 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+
+#center #img_small{
+    display: flex;
+}
+
+#center #icon {
+    display: flex;
+    margin-top: 27px;
+    margin-left: 210px;
+ }
+
+#center #icon img {
+    margin-right: 15px;
+}
+#center #icon button{
+    width: 125px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border: 0;
+    margin-right: 15px;
 }
 #right {
     display: flex;
