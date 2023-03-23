@@ -411,3 +411,82 @@
     height: 20px;
     margin-bottom: 33px;
 }
+#right #right_bot{
+    margin-top: 70px;
+    margin-left: 30px;
+    flex-direction: column;
+}
+#right #right_bot h2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+#right #right_bot #Chat1{
+    display: flex;
+}
+#right #right_bot .two{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+#right #right_bot .three{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 14px;
+    margin-left: 15px;
+    color: #757678;
+}
+
+#Chat2 {
+    width: 330px;
+    height: 70px;
+    margin-left: 55px;
+    border: #757678 solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:#fff;
+}
+#Chat3{
+    display: flex;
+    margin-top: 20px;
+}
+#Chat4{
+    width: 330px;
+    height: 70px;
+    margin-left: 55px;
+    border: #757678 solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color:#fff;
+}
+#Chat5{
+    display: flex;
+    margin-top: 20px;
+}
+#Chat6{
+    width: 100px;
+    height: 50px;
+    margin-left: 55px;
+    border: #757678 solid 2px;
+    font-size: 14px;
+    background-color:palevioletred;
+}
+#Chat7{
+    display: flex;
+    margin-top: 20px;
+}
+#Chat8{
+    display: flex;
+}
+#Chat8 input{
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+}
+#Chat8 img{
+    margin-left: 30px;
+}
