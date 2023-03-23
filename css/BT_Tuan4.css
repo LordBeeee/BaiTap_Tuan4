@@ -5,7 +5,7 @@
 }
 
 #main {
-    width: 1600px;
+    width: 1440px;
     height: 920px;
     justify-content: space-between;
     display: flex;
@@ -21,7 +21,6 @@
 
 #logo_top {
     width: 80px;
-    margin-left: 70px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -29,7 +28,6 @@
 #logo_bot{
     width: 80px;
     height: 475px;
-    margin-left: 70px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -45,6 +43,7 @@
 }
 #center #header h2{
     font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
     margin-left: 30px;
     margin-top: 40px;
 }
@@ -57,7 +56,7 @@
     border-radius: 20px;
     margin-top: 30px;
     margin-right: 30px;
-    margin-left: 600px;
+    margin-left: 590px;
     background-color: white;
 }
 #center #contect_1{
@@ -272,5 +271,143 @@
 }
 #right {
     display: flex;
-    width: 525px;
+    width: 440px;
+    flex-direction: column;
+    margin-left: 10px;
+}
+#right #right_head {
+    display: flex;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#right #right_head .tron {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border: 2px;
+    border-style: solid;
+    color: #E34D73;
+    border-radius: 20px;
+    margin-left: 5px;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+#right #right_head .chen{
+    display: flex;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 3px;
+    color: #E34D73;
+}
+#right #right_head h2{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#right #right_head .add{
+    display: flex;
+    width: 75px;
+    height: 35px;
+    border: #E34D73 solid 2px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    border-radius: 5px;
+    color: #E34D73;
+    position: relative;
+}
+
+#right #right_head .chen1{
+    display: flex;
+    color: #E34D73;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 10px;
+}
+#right #right_top {
+    display: flex;
+    height: 200px;
+    margin-left: 30px;
+    
+}
+#right #right_top #right_top_left{
+    display: flex;
+    width: 45px;
+    flex-direction: column;
+}
+
+#right #right_top #right_top_left img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+#right #right_top #right_top_center{
+    flex-direction: column;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#right #right_top #right_top_center .one{
+    display: flex;
+    margin-top: 15px;
+}
+#right #right_top #right_top_center div{
+    display: flex;
+    margin-bottom: 35px;
+}
+#right #right_top #right_top_right{
+    display: flex;
+}
+
+#right #right_top #right_top_right1{
+    flex-direction: column;
+    margin-left: 130px;
+    width: 15px;
+}
+#right #right_top #right_top_right1 img{
+    display: flex;
+    width: 15px;
+    height: 20px;
+    margin-bottom: 33px;
+}
+#right #right_top #right_top_right1 .one{
+    display: flex;
+    margin-top: 15px;
+}
+
+#right #right_top_right #right_top_right2{
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    height: 20px;
+    margin-left: 15px;
+}
+#right #right_top #right_top_right2 .one{
+    display: flex;
+    margin-top: 15px;
+}
+#right #right_top #right_top_right2 img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 33px;
+}
+#right #right_top_right #right_top_right3{
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    height: 20px;
+    margin-left: 15px;
+}
+#right #right_top #right_top_right3 .one{
+    display: flex;
+    margin-top: 15px;
+}
+#right #right_top #right_top_right3 img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 33px;
 }
